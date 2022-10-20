@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="nofollow">
+    <meta name="googlebot" content="noindex">
+    <title>Myroom</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn" crossorigin="anonymous"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z4J3ESZKLS');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+    
+ 
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-item1"><img class="header__logo" alt="logo" src="images/logo.png"></div>
+        <div class="header-item2"><a class="header__link" href="#advance">Переваги</a><a class="header__link" href="#adress">Адреси хостелів</a><a class="header__link" href="#reviews">Відгуки</a>
+          <select name="forma" onchange="location = this.value;">
+            <option value="index.html">UA</option>
+            <option value="index-ru.html">RU</option>
+          </select>
+        </div>
+        <div class="header-item3">
+          <div class="header__icon"><img class="header__icon" src="images/1.svg">
+            <div class="header__phones"><a class="header__phone header__phone_sp" href="tel:+38 (063) 890 30 30">+38 (063) 890 30 302</a><a class="header__phone" href="tel:+38 (096) 890 30 30">+38 (096) 890 30 30</a></div>
+          </div>
+          <div class="header__phones"><a class="header__phone" href="tel:+38 (066) 890 30 30">+38 (066) 890 30 30</a>
+            <button class="header__button trigger_popup_fricc9">Передзвонити</button>
+            <div class="hover_bkgr_fricc9"><span class="helper"></span>
+              <div>
+                <div class="popupCloseButton9">&times;</div>
+                <h5>Замовити зворотній зв'язок</h5>
+                <form class="hostel__form" id="ajax_form2" action="" method="POST">
+                  <input class="hostel__input hostel__input2"  type="text" name="name" placeholder="Ім’я" required>
+                  <input class="hostel__input hostel__input1" data-rule="phone" type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                  <input class="hostel__button" type="button" id="btn2" value="Забронювати">
+                </form>
+                <div id="result_form2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="ham">
+        <!-- X and menu icon SVGs from material icons https://material.io/resources/icons/--><span class="menuIcon material-icons" style="display: block;">
+          <svg width="37" height="23" viewbox="0 0 37 23" fill="black" xmlns="http://www.w3.org/2000/svg">
+            <rect width="37" height="3" rx="1.5" fill="black"></rect>
+            <rect y="10" width="37" height="3" rx="1.5" fill="black"></rect>
+            <rect x="20.72" y="20" width="16.28" height="3" rx="1.5" fill="black"></rect>
+          </svg></span><span class="xIcon material-icons" style="display: none;"><img src="images/close.svg"></span>
+      </button>
+      <ul class="menu">
+        <li><a class="menuLink header__link" href="#advance">Переваги</a></li>
+        <li><a class="menuLink header__link" href="#adress">Адреси хостелів</a></li>
+        <li><a class="menuLink header__link" href="#reviews">Відгуки</a></li>
+        <select name="forma" onchange="location = this.value;">
+          <option value="index.html">UA</option>
+          <option value="index-ru.html">RU</option>
+        </select>
+      </ul>
+      <div class="title-section">
+        <div class="title-section-info">
+          <h2 class="title-section__header">МЕГАПОЛІС-</h2>
+          <p class="title-section__title">твій комфорт у великому місті</p>
+          <button class="title-section__button trigger_popup_fricc8 button_title">Забронювати</button>
+          <div class="hover_bkgr_fricc8"><span class="helper"></span>
+            <div>
+              <div class="popupCloseButton8">&times;</div>
+              <h5>Забронювати хостел </h5>
+              <form class="hostel__form" id="ajax_form1" action="" method="POST">
+                <input class="hostel__input hostel__input2" type="text" name="name" placeholder="Ім’я" required>
+                <input class="hostel__input hostel__input1"  data-rule="phone"  type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                <input class="hostel__input1" type="text" name="lang" value="ua">
+                <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                <div class="hostel__set-book-date">
+                  <div class="hostel__set-book-date-item">
+                    <p class="hostel__data">Дата заселення:</p>
+                    <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                  </div>
+                  <div class="hostel__set-book-date-item">
+                    <p class="hostel__data">Дата виїзда:</p>
+                    <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                  </div>
+                </div>
+                <input class="hostel__button" type="button" id="btn1" value="Забронювати">
+              </form>
+              <div id="result_form1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+              <!-- CODE -->
+         <div class="reviews-mob">
+    <h4 class="reviews__title" id="reviews">Варіанти розміщення</h4>
+    <div class="table-mob_title">
+            <p class="table-mob_top" >Вартість за 1 місце</p>
+      <table class="table-mob_b">
+        <tr class="table-mob_row">
+          <td class="table-mob_row1" colspan="2">Тип номеру</td>
+          <td class="td-mob">Доба</td>
+          <td class=" td-mob">Тиждень</td>
+          <td class=" td-mob">4 Тижні</td>
+          </tr>
+          <tr>
+            <td>
+              <img width="30px" src="images/people1.svg"></td>
+              <td> <button class="title-section__button trigger_popup_fricc8 button__btn button__mob">Забронювати</button></td>
+              <td>400</td>
+              <td>1350</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>
+                <img width="30px" src="images/people2.svg"></td>
+                <td> <button class="title-section__button trigger_popup_fricc8 button__btn button__mob">Забронювати</button></td>
+                <td>300</td>
+                <td>1000</td>
+                <td>3000</td>
+              </tr>
+              <tr>
+                <td>
+                  <img width="30px" src="images/people3.svg"></td>
+                  <td> <button class="title-section__button trigger_popup_fricc8 button__btn button__mob">Забронювати</button></td>
+                  <td>280</td>
+                  <td>900</td>
+                  <td>2750</td>
+                </tr>
+                <td>
+                  <img width="30px" src="images/people4.svg"></td>
+                  <td> <button class="title-section__button trigger_popup_fricc8 button__btn button__mob">Забронювати</button></td>
+                  <td>250</td>
+                  <td>800</td>
+                  <td>2500</td>
+                </tr>
+                </table>
+                </div>
+                </div>
+               
+        
+        
+        <!-- CODE -->
+      
+      
+      
+      <div class="reviews">
+    <h4 class="reviews__title" id="reviews">Варіанти розміщення</h4>
+    <div class="price-table__header">
+        
+      <div class="price-table__header1">
+        <div class="price-table__item">Тип номеру</div>
+      </div>
+      <div class="price-table__header2"> 
+        <div class="price-table__item">Вартість за 1 місце</div>
+        <div class="price-table__items">
+          <div class="price-table__title">Доба</div>
+          <div class="price-table__line"> </div>
+          <div class="price-table__title">Тиждень</div>
+          <div class="price-table__line"></div>
+          <div class="price-table__title">4 Тижні</div>
+        </div>
+      </div>
+    </div>
+    <div class="tabordion">
+      <section id="section1">
+        <input id="option1" type="radio" name="sections" checked="">
+        <label for="option1"> <img src="images/people1.svg"></label>
+        <article class="slide-left">
+          <div class="tabordion-price">
+          <div class="price-table__items3">
+            <div class="price-table__title">400</div>
+            <div class="price-table__title">1350</div>
+            <div class="price-table__title">4000</div>
+          </div>
+          <div class="tabordion-button">
+          <button class="title-section__button trigger_popup_fricc8 button__btn">Забронювати</button>
+        </div>
+        </div>
+        <ul class="slides item-slides">
+                <input id="img-1-1" type="radio" name="radio-btn11" checked="">
+                <li class="slide-container">
+                  <div class="item-slide slide"><img src="images/1.png"></div>
+                  <div class="nav nav-new">
+                    <label class="prev" for="img-3-3">‹</label>
+                    <label class="next" for="img-2-2">›</label>
+                  </div>
+                </li>
+                <input id="img-2-2" type="radio" name="radio-btn11">
+               <li class="slide-container">
+                  <div class="item-slide slide"><img src="images/home1.JPG"></div>
+                  <div class="nav nav-new">
+                    <label class="prev" for="img-1-1">‹</label>
+                    <label class="next" for="img-3-3">›</label>
+                  </div>
+                </li>
+               
+                <li class="nav-dots new">
+                  <label class="nav-dot " id="img-dot-1-1" for="img-1-1"></label>
+                  <label class="nav-dot" id="img-dot-2-2" for="img-2-2"></label>
+                   
+               
+                </li>
+              </ul>
+          
+        </article>
+      </section>
+      <section id="section2">
+        <input id="option2" type="radio" name="sections">
+        <label for="option2"><img src="images/people2.svg"></label>
+        <article>
+          <div class="tabordion-price">
+          <div class="price-table__items3">
+            <div class="price-table__title">300</div>
+            <div class="price-table__title">1000</div>
+            <div class="price-table__title">3000</div>
+          </div>
+          <div class="tabordion-button">
+          <button class="title-section__button trigger_popup_fricc8 button__btn">Забронювати</button>
+        </div>
+      </div>
+           <ul class="slides item-slides-two">
+                <input id="img-3-3" type="radio" name="radio-btn22" checked="">
+                <li class="slide-container">
+                  <div class="slide-left slide"><img src="images/home9.JPG"></div>
+                  <div class="nav nav-new">
+                    <label class="prev" for="img-4-4">‹</label>
+                    <label class="next" for="img-4-4">›</label>
+                  </div>
+                </li>
+                <input id="img-4-4" type="radio" name="radio-btn22">
+               <li class="slide-container">
+                  <div class="slide-left slide"><img src="images/2.png"></div>
+                  <div class="nav nav-new">
+                    <label class="prev" for="img-3-3">‹</label>
+                    <label class="next" for="img-3-3">›</label>
+                  </div>
+                </li>
+                <li class="nav-dots new">
+                  <label class="nav-dot " id="img-dot-3-3" for="img-3-3"></label>
+                  <label class="nav-dot" id="img-dot-4-4" for="img-4-4"></label>
+                   
+                </li>
+              </ul>
+        </article>
+      </section>
+      <section id="section3">
+        <input id="option3" type="radio" name="sections">
+        <label for="option3"><img src="images/people3.svg"></label>
+        <article>
+          <div class="tabordion-price">
+          <div class="price-table__items3">
+            <div class="price-table__title">280</div>
+            <div class="price-table__title">900</div>
+            <div class="price-table__title">2750</div>
+          </div>
+          <div class="tabordion-button">
+          <button class="title-section__button trigger_popup_fricc8 button__btn">Забронювати</button>
+        </div>
+      </div>
+          <ul class="slides item-slides-three">
+                <input id="img-5-5" type="radio" name="radio-btn33" checked="">
+                <li class="slide-container">
+                  <div class="item-slide slide-left slide"><img src="images/home11.JPG"></div>
+                 
+                </li>
+               
+              </ul>
+        </article>
+      </section>
+      <section id="section4">
+        <input id="option4" type="radio" name="sections">
+        <label for="option4"><img src="images/people4.svg"></label>
+        <article>
+          <div class="tabordion-price">
+          <div class="price-table__items3">
+            <div class="price-table__title">250</div>
+            <div class="price-table__title">800</div>
+            <div class="price-table__title">2500</div>
+          </div>
+          <div class="tabordion-button">
+          <button class="title-section__button trigger_popup_fricc8 button__btn">Забронювати</button>
+        </div>
+      </div>
+      <ul class="slides item-slides-four">
+                <input id="img-6-6" type="radio" name="radio-btn44" checked="">
+                <li class="slide-container">
+                  <div class="item-slide slide-left slide"><img src="images/home6.JPG"></div>
+                  <div class="nav nav-new">
+                    <label class="prev" for="img-7-7">‹</label>
+                    <label class="next" for="img-7-7">›</label>
+                  </div>
+                </li>
+                <input id="img-7-7" type="radio" name="radio-btn44">
+               <li class="slide-container">
+                  <div class="item-slide slide-left slide"><img src="images/home8.JPG"></div>
+                  <div class="nav nav-new">
+                    <label class="prev" for="img-6-6">‹</label>
+                    <label class="next" for="img-6-6">›</label>
+                  </div>
+                </li>
+                <li class="nav-dots new">
+                  <label class="nav-dot " id="img-dot-6-6" for="img-6-6"></label>
+                  <label class="nav-dot" id="img-dot-7-7" for="img-7-7"></label>
+                   
+                </li>
+              </ul>
+        </article>
+      </section>
+    </div>
+  </div>
+    <!-- <div class="reviews">
+        <h4 class="reviews__title" id="reviews">Варіанти розміщення</h4>
+        <div class="price-table__header">
+          <div class="price-table__header1">
+            <div class="price-table__item">Тип кімнати</div>
+          </div>
+          <div class="price-table__header2"> 
+            <div class="price-table__item price-table__item-head">Вартість за 1 місце</div>
+            <div class="price-table__items">
+              <div class="price-table__title">День</div>
+              <div class="price-table__line"> </div>
+              <div class="price-table__title">Тиждень</div>
+              <div class="price-table__line"></div>
+              <div class="price-table__title">4 тиждня</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-table__body"> 
+          <div class="price-table__header1">
+            <div class="price-table__item"> <img src="images/people1.svg"></div>
+          </div>
+          <div class="price-table__header2"> 
+            <div class="price-table__items">
+              <div class="price-table__title">430</div>
+              <div class="price-table__title">1500</div>
+              <div class="price-table__title">4500</div>
+              <button class="title-section__button trigger_popup_fricc15">Забронювати</button>
+              <div class="hover_bkgr_fricc15"><span class="helper"></span>
+            <div>
+              <div class="popupCloseButton15">&times;</div>
+              <h5>Забронювати кімнату</h5>
+              <form class="hostel__form" id="ajax_form15" action="" method="POST">
+                <input class="hostel__input hostel__input2" type="text" name="name" placeholder="Ім’я" required>
+                <input class="hostel__input hostel__input1"  data-rule="phone"  type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                <input class="hostel__input1" type="text" name="lang" value="ua">
+                <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                <div class="hostel__set-book-date">
+                  <div class="hostel__set-book-date-item">
+                    <p class="hostel__data">Дата заселення:</p>
+                    <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                  </div>
+                  <div class="hostel__set-book-date-item">
+                    <p class="hostel__data">Дата виїзда:</p>
+                    <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                  </div>
+                </div>
+                <input class="hostel__button" type="button" id="btn15" value="Забронювати">
+              </form>
+              <div id="result_form15"></div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-table__body"> 
+          <div class="price-table__header1">
+            <div class="price-table__item"> <img src="images/people2.svg"></div>
+          </div>
+          <div class="price-table__header2"> 
+            <div class="price-table__items">
+            <div class="price-table__title">390</div>
+               <div class="price-table__title">1350</div>
+              <div class="price-table__title">4000</div>
+              <button class="title-section__button trigger_popup_fricc15">Забронювати</button>
+            </div>
+          </div>
+        </div>
+        <div class="price-table__body"> 
+          <div class="price-table__header1">
+            <div class="price-table__item"> <img src="images/people3.svg"></div>
+          </div>
+          <div class="price-table__header2"> 
+            <div class="price-table__items">
+               <div class="price-table__title">350</div>
+              <div class="price-table__title"> 1200</div>
+              <div class="price-table__title"> 3500</div>
+              <button class="title-section__button trigger_popup_fricc15">Забронювати</button>
+            </div>
+          </div>
+        </div>
+        <div class="price-table__body"> 
+          <div class="price-table__header1">
+            <div class="price-table__item"> <img src="images/people4.svg"></div>
+          </div>
+          <div class="price-table__header2"> 
+            <div class="price-table__items rice-table__items_spec">
+             <div class="price-table__title price-table__title_spec">290</div>
+              <div class="price-table__title">1000</div>
+              <div class="price-table__title">3000</div>
+              <button class="title-section__button trigger_popup_fricc15">Забронювати</button>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <div class="slider-section"> 
+        <h5 class="slider-section__header" id="adress">Адреси</h5>
+        <div class="slider-section__items">
+          <div class="slider-section__item-wrapp">
+            <div class="slider-section__item">
+              <ul class="slides4">
+                <input id="img-29" type="radio" name="radio-btn5" checked="">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/new1.png"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-34">&lsaquo;</label>
+                    <label class="next" for="img-30">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-30" type="radio" name="radio-btn5">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/new2.png"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-29">&lsaquo;</label>
+                    <label class="next" for="img-31">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-31" type="radio" name="radio-btn5">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/new3.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-30">&lsaquo;</label>
+                    <label class="next" for="img-32">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-32" type="radio" name="radio-btn5">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/new4.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-31">&lsaquo;</label>
+                    <label class="next" for="img-33">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-33" type="radio" name="radio-btn5">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/new5.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-32">&lsaquo;</label>
+                    <label class="next" for="img-34">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-34" type="radio" name="radio-btn5">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/new6.png"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-33">&lsaquo;</label>
+                    <label class="next" for="img-29">&rsaquo;</label>
+                  </div>
+                </li>
+                <li class="nav-dots">
+                  <label class="nav-dot" id="img-dot-29" for="img-29"></label>
+                  <label class="nav-dot" id="img-dot-30" for="img-30"></label>
+                  <label class="nav-dot" id="img-dot-31" for="img-31"></label>
+                  <label class="nav-dot" id="img-dot-32" for="img-32"></label>
+                  <label class="nav-dot" id="img-dot-33" for="img-33"></label>
+                  <label class="nav-dot" id="img-dot-34" for="img-34"></label>
+                </li>
+              </ul>
+              <div class="slider-section__title"> 
+                <div class="slider-section__news">NEW</div>
+                <div class="slider-section__bonus">Акція</div>
+              </div>
+              <button class="accordion">Адреса</button>
+              <div class="panel">
+                <p> метро Лівобережна</p><br> вул. Челябінська, 5а        
+              </div>
+              <button class="accordion">Ціна</button>
+              <div class="panel">доба: <strong>240 грн</strong><br>тиждень: 
+                <del>770 грн</del><strong> від 550 грн</strong><br>4 тиждня: від 
+                <del>2250 грн</del><strong> 1700 грн.</strong><br>
+              </div>
+              <button class="accordion">Опис</button>
+              <div class="panel">
+                <p>Хостел Лівобережний. (Вул. Челябінська, 5-а) Розташований в 10 хвилинах ходьби від НВЦ Лівобережного, що є головною перевагою нашого розташування. Це дозволить Вам приїхати з питань Вашого бізнесу і комфортно відпочити в нашому хостелі. Також ми готові розмістити великі групи людей, як для тимчасового проживання, так і на постійній основі. Хостел знаходиться в 7 хвилинах ходьби від м. Лівобережна. Інфраструктура даного розташування дозволить Вам доїхати до вулиці Хрещатик за 15 хвилин до Києво-Печерської Лаври за 20 хвилин. Можна доїхати, як метро так і маршрутним таксі. Так само на території хостелу є парковка.</p>
+              </div>
+              <button class="accordion">Що поруч?</button>
+              <div class="panel">
+                <ul>
+                  <li>станція метро Лівобережна</li>
+                  <li>Цілодобовий супермаркет АТБ</li>
+                  <li>Супермаркети Фуршет, NOVUS, ТРЦ Комод</li>
+                  <li>Поліклініка</li>
+                  <li>ПриватБанк, цілодобовий банкомат</li>
+                  <li>Відділення Нова Пошта, Meest Exspress</li>
+                  <li>Міжнародний виставковий центр</li>
+                  <li>Ресторан швидкого харчування Пузата Хата, McDonald’s</li>
+                  <li>Ресторани Євразія, MAFIA</li>
+                  <li>Київський академічний театр драми та комедії</li>
+                  <li>Прокат велосипедів</li>
+                  <li>Спортклуби</li>
+                  <li>Парк відпочинку Гідропарк, пляж</li>
+                </ul>
+              </div>
+              <button class="accordion">Транспорт</button>
+              <div class="panel">
+                <p>Метро Лівобережна 7 хвилин ходьби<br>Маршрутне таксі № 177, 215К, 599</p>
+              </div>
+            </div>
+            <div class="slider-section__contact"><a class="slider-section__link trigger_popup_fricc10">Показати на мапі</a>
+              <div class="hover_bkgr_fricc10"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton10">&times;</div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.4146525988103!2d30.404238015896546!3d50.47062389379185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc55e4c9454b%3A0xac4a799178a064ee!2z0LLRg9C70LjRhtGPINCU0LDQvdC40LvQsCDQqdC10YDQsdCw0LrRltCy0YHRjNC60L7Qs9C-LCA1Miwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1622637929083!5m2!1suk!2sua" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <button class="hostel__button slider-section__button trigger_popup_fricc11">Забронювати</button>
+              <div class="hover_bkgr_fricc11"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton11">&times;</div>
+                  <h5>Забронювати хостел на Челябінській</h5>
+                  <form class="hostel__form" id="ajax_form4" action="" method="POST">
+                    <input  class="hostel__input hostel__input2" type="text" name="name" placeholder="Ім’я" required>
+                    <input data-rule="phone" class="hostel__input hostel__input3" type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                    <input class="hostel__input1" type="text" name="lang" value="ua">
+                    <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                    <div class="hostel__set-book-date">
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата заселення:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                      </div>
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата виїзда:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                      </div>
+                    </div>
+                  </form>
+                  <input class="hostel__button" type="button" id="btn4" value="Забронювати">
+                  <div id="result_form4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-section__item-wrapp">
+            <div class="slider-section__item">
+              <ul class="slides">
+                <input id="img-1" type="radio" name="radio-btn" checked="">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/1.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-2">&lsaquo;</label>
+                    <label class="next" for="img-2">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-2" type="radio" name="radio-btn">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/2.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-1">&lsaquo;</label>
+                    <label class="next" for="img-1">&rsaquo;</label>
+                  </div>
+                </li>
+                <li class="nav-dots">
+                  <label class="nav-dot" id="img-dot-1" for="img-1"></label>
+                  <label class="nav-dot" id="img-dot-2" for="img-2"></label>
+                </li>
+              </ul>
+              <div class="slider-section__title"> 
+                <div class="slider-section__news">NEW</div>
+              </div>
+              <button class="accordion">Адреса</button>
+              <div class="panel">
+                <p> метро Голосіївська </p><br> пер. Ужгородский, 7        
+              </div>
+              <button class="accordion">Ціна</button>
+              <div class="panel">доба: <strong>240 грн</strong><br>тиждень: від <strong>750 грн</strong><br>4 тиждня: від <strong> 2300 грн.</strong><br></div>
+              <button class="accordion">Опис</button>
+              <div class="panel">
+                <p>Головна перевага цієї локація - метро «Голосіївська». Дуже близько! 3-5 хв пішки. А це найточніший вид транспорту в столиці. Ви будете вчасно на роботі, на вокзалах і на будь-яких зустрічах. Крім вирішення питання з транспортом, недалеко в супермаркеті «Велика кишеня» або магазині «Лоток» ви знайдете все до столу. Інфраструктура цим не обмежується, для вас: Космо, поштове відділення, пивний магазин «Море пива», піцерія «Domino'zz Pizza». Зовсім недалеко від нашого хостела чудовий парк з озерами, де завжди можна відпочити і забути про шаленому ритмі міста.</p>
+              </div>
+              <button class="accordion">Що поруч?</button>
+              <div class="panel">
+                <ul>
+                  <li>станція метро Голосіївська (3 хв)</li>
+                  <li>магазин «Велика кишеня»</li>
+                  <li>магазин «Лоток»</li>
+                  <li>пивний магазин «Море пива»</li>
+                  <li>піцерія «Domino’zz Pizza»</li>
+                </ul>
+              </div>
+              <button class="accordion">Транспорт</button>
+              <div class="panel">
+                <p>Маршрутки: 416, 444, 507<br>Тролейбуси: 11, 12, 43<br>Автобуси: 28, 729, 812</p>
+              </div>
+            </div>
+            <div class="slider-section__contact"><a class="slider-section__link trigger_popup_fricc">Показати на мапі</a>
+              <div class="hover_bkgr_fricc"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton">&times;</div>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.461161929773!2d30.504491215894586!3d50.395242599222236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8c978768cd9%3A0xd7e7885f8cd2bda2!2z0KPQttCz0L7RgNC-0LTRgdGM0LrQuNC5INC_0YDQvtCy0YPQu9C-0LosIDcsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1622637692350!5m2!1suk!2sua" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <button class="hostel__button slider-section__button trigger_popup_fricc7">Забронювати</button>
+              <div class="hover_bkgr_fricc7"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton7">&times;</div>
+                  <h5>Забронювати хостел на Ужгородській</h5>
+                  <form id="ajax_form5" class="hostel__form" action="" method="POST">
+                    <input   class="hostel__input hostel__input3" type="text" name="name" placeholder="Ім’я" required>
+                    <input data-rule="phone" class="hostel__input hostel__input2" type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                    <input class="hostel__input1" type="text" name="lang" value="ua">
+                    <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                    <div class="hostel__set-book-date">
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата заселення:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                      </div>
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата виїзда:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                      </div>
+                    </div>
+                    <input class="hostel__button" type="button" id="btn5" value="Забронювати">
+                    <div id="result_form5"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-section__item-wrapp">
+            <div class="slider-section__item">
+              <ul class="slides2">
+                <input id="img-3" type="radio" name="radio-btn1" checked>
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sh1.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-8">&lsaquo;</label>
+                    <label class="next" for="img-4">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-4" type="radio" name="radio-btn1">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sh2.png"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-3">&lsaquo;</label>
+                    <label class="next" for="img-5">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-5" type="radio" name="radio-btn1">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sh3.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-4">&lsaquo;</label>
+                    <label class="next" for="img-6">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-6" type="radio" name="radio-btn1">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sh4.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-5">&lsaquo;</label>
+                    <label class="next" for="img-7">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-7" type="radio" name="radio-btn1">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sh5.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-6">&lsaquo;</label>
+                    <label class="next" for="img-8">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-8" type="radio" name="radio-btn1">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sh6.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-7">&lsaquo;</label>
+                    <label class="next" for="img-3">&rsaquo;</label>
+                  </div>
+                </li>
+                <li class="nav-dots">
+                  <label class="nav-dot" id="img-dot-3" for="img-3"></label>
+                  <label class="nav-dot" id="img-dot-4" for="img-4"></label>
+                  <label class="nav-dot" id="img-dot-5" for="img-5"></label>
+                  <label class="nav-dot" id="img-dot-6" for="img-6"></label>
+                  <label class="nav-dot" id="img-dot-7" for="img-7"></label>
+                  <label class="nav-dot" id="img-dot-8" for="img-8"></label>
+                </li>
+              </ul>
+              <div class="slider-section__title"> 
+                <div class="slider-section__news">NEW</div>
+                <div class="slider-section__bonus">Акція</div>
+              </div>
+              <button class="accordion">Адреса</button>
+              <div class="panel">
+                <p> метро Нивки</p><br> вул. Щербаковского, 52           
+              </div>
+              <button class="accordion">Ціна</button>
+             <div class="panel">доба: <strong>240 грн</strong><br>тиждень: 
+                <del>700 грн</del><strong> від 600 грн</strong><br>4 тиждня: від 
+                <del>2100 грн</del><strong> 1800 грн.</strong><br>
+              </div>
+              <button class="accordion">Опис</button>
+              <div class="panel">
+                <p>Ласкаво просимо на Нивки! Нивки - мікрорайон Києва, в якому знаходитися наш хостел.Для вашого комфортного життя тут є все: супермаркети, ринок, парки, метро.Ето гарне місце для довгих піших прогулянок і отдиха.Сам хостел знаходиться в новому будинку. Наші кімнати в відмінному оновленому стані. Ремонт відбувся навесні 2018 р. Зручні дерев'яні ліжка, ортопедичні матраци, індивідуальний простір - для відпочинку, продумана кухня і техніка - для зручності, персональні бокси під ключ - для безпеки.</p>
+              </div>
+              <button class="accordion">Що поруч?</button>
+              <div class="panel">
+                <ul>
+                  <li>Метро Нивки</li>
+                  <li>Супермаркети: АТБ, Сильпо</li>
+                  <li>Магазин Ева</li>
+                  <li>Аптеки</li>
+                  <li>ПриватБанк, Альфа-банк, Ощадбанк</li>
+                  <li>Нова пошта відділення 253</li>
+                  <li>Ін-Тайм відділення 30</li>
+                  <li>Виставковий центр "КиевЭкспоПлаза"</li>
+                  <li>Концертний зал Allegro</li>
+                  <li>Це ідеальне місце для життя у великому місті</li>
+                </ul>
+              </div>
+              <button class="accordion">Транспорт</button>
+              <div class="panel">
+                <p>станція метро Нивки (15 хв ходьби) Громадський транспорт курсує в усі райони Києва. Ви зможете вибрати найкраще відповідає вашим потребам, з урахуванням дорожньої ситуації</p>
+              </div>
+            </div>
+            <div class="slider-section__contact"><a class="slider-section__link trigger_popup_fricc1">Показати на мапі</a>
+              <div class="hover_bkgr_fricc1"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton1">&times;</div>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.4146525988103!2d30.404238015896546!3d50.47062389379185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc55e4c9454b%3A0xac4a799178a064ee!2z0LLRg9C70LjRhtGPINCU0LDQvdC40LvQsCDQqdC10YDQsdCw0LrRltCy0YHRjNC60L7Qs9C-LCA1Miwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1622637929083!5m2!1suk!2sua" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <button class="hostel__button slider-section__button trigger_popup_fricc6">Забронювати</button>
+              <div class="hover_bkgr_fricc6"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton6">&times;</div>
+                  <h5>Забронювати хостел на Щербаковського</h5>
+                  <form id="ajax_form6" class="hostel__form" action="" method="POST">
+                    <input  class="hostel__input hostel__input3" type="text" name="name" placeholder="Ім’я" required>
+                    <input  data-rule="phone" class="hostel__input hostel__input2" type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                    <input class="hostel__input1" type="text" name="lang" value="ua">
+                    <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                    <div class="hostel__set-book-date">
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата заселення:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                      </div>
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата виїзда:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                      </div>
+                    </div>
+                    <input class="hostel__button" type="button" id="btn6" value="Забронювати">
+                    <div id="result_form6"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-section__item-wrapp">       
+            <div class="slider-section__item">
+              <ul class="slides4">
+                <input id="img-18" type="radio" name="radio-btn4" checked>
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv1.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-28">&lsaquo;</label>
+                    <label class="next" for="img-19">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-19" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv2.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-18">&lsaquo;</label>
+                    <label class="next" for="img-20">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-20" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv3.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-19">&lsaquo;</label>
+                    <label class="next" for="img-21">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-21" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv4.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-20">&lsaquo;</label>
+                    <label class="next" for="img-22">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-22" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv6.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-21">&lsaquo;</label>
+                    <label class="next" for="img-23">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-23" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv8.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-22">&lsaquo;</label>
+                    <label class="next" for="img-24">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-24" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv9.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-23">&lsaquo;</label>
+                    <label class="next" for="img-25">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-25" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv10.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-24">&lsaquo;</label>
+                    <label class="next" for="img-26">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-26" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv11.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-25">&lsaquo;</label>
+                    <label class="next" for="img-27">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-27" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv12.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-26">&lsaquo;</label>
+                    <label class="next" for="img-28">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-28" type="radio" name="radio-btn4">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/sv5.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-27">&lsaquo;</label>
+                    <label class="next" for="img-18">&rsaquo;</label>
+                  </div>
+                </li>
+                <li class="nav-dots">
+                  <label class="nav-dot" id="img-dot-18" for="img-18"></label>
+                  <label class="nav-dot" id="img-dot-19" for="img-19"></label>
+                  <label class="nav-dot" id="img-dot-20" for="img-20"></label>
+                  <label class="nav-dot" id="img-dot-21" for="img-21"></label>
+                  <label class="nav-dot" id="img-dot-22" for="img-22"></label>
+                  <label class="nav-dot" id="img-dot-23" for="img-23"></label>
+                  <label class="nav-dot" id="img-dot-24" for="img-24"></label>
+                  <label class="nav-dot" id="img-dot-25" for="img-25"></label>
+                  <label class="nav-dot" id="img-dot-26" for="img-26"></label>
+                  <label class="nav-dot" id="img-dot-27" for="img-27"></label>
+                  <label class="nav-dot" id="img-dot-28" for="img-28"></label>
+                </li>
+              </ul>
+              <div class="slider-section__title"> 
+                <div class="slider-section__news">NEW</div>
+                <div class="slider-section__bonus">Акція</div>
+              </div>
+              <button class="accordion">Адреса</button>
+              <div class="panel">
+                <p> метро Святошино</p><br> пр. Перемоги, 118         
+              </div>
+              <button class="accordion">Ціна</button>
+              <div class="panel">доба: <del>270 грн</del><strong>240 грн</strong><br>тиждень: 
+                <del>900 грн</del><strong> від 650 грн</strong><br>4 тиждня: від 
+                <del>2700 грн</del><strong> 1900 грн.</strong><br>
+              </div>
+              <button class="accordion">Опис</button>
+              <div class="panel">
+                <p>Святошинський район в якійсь мірі можна назвати «універсальним» районом. Я думаю, що якщо у інших районів існує своя специфіка – скажімо, Поділ – це бізнес-центр і історично значимий район міста, а Шевченківський – також виконує функції бізнес-району і багатий на розважальну інфраструктуру, то в Святошинському районі, за великим рахунком, є все. І саме цей факт робить його досить комфортним і для відпочинку, і для роботи. Хостел розташований в новому, капітально відремонтованому окремій будівлі. Комфорт, чистота і затишок, які стали вже візитною карткою компанії МЕГАПОЛІС, запропонують Вам свої апартаменти за прийнятними цінами! Зручні дерев’яні ліжка, ортопедичні матраци, камери відеоспостереження, цілодобова охорона, і багато іншого чекає Вас ТУТ!</p>
+              </div>
+              <button class="accordion">Що поруч?</button>
+              <div class="panel">
+                <ul>
+                  <li>станіия метро Святошино (8 мин)</li>
+                  <li>магазин «Велика кишеня»</li>
+                  <li>речовий і продуктивний ринок Святошино</li>
+                  <li>залізнична станція</li>
+                  <li>відділення банків ОТП, ПУМБ, Альфа Банк, Приват банк</li>
+                  <li>Київстар</li>
+                  <li>Нова пошта</li>
+                  <li>Торговий центр VMB</li>
+                  <li>ресторан Mafia</li>
+                  <li>Портер Паб</li>
+                </ul>
+              </div>
+              <button class="accordion">Транспорт</button>
+              <div class="panel">
+                <p>Маршрутки: 416, 444, 507</p>Тролейбуси: 11, 12, 43<br>Автобуси: 28, 729, 812
+              </div>
+            </div>
+            <div class="slider-section__contact"><a class="slider-section__link trigger_popup_fricc2">Показати на мапі</a>
+              <div class="hover_bkgr_fricc2"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton2">&times;</div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.139116369327!2d30.37507121573165!3d50.45713407947631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc8c6b1e8877%3A0xbb1b15e7340b7506!2z0L_RgNC-0YHQv9C10LrRgiDQn9C10YDQtdC80L7Qs9C4LCAxMTgsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1619181161592!5m2!1suk!2sua" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <button class="hostel__button slider-section__button trigger_popup_fricc5">Забронювати</button>
+              <div class="hover_bkgr_fricc5"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton5">&times;</div>
+                  <h5>Забронювати хостел на Перемоги</h5>
+                  <form id="ajax_form7" class="hostel__form" action="" method="POST">
+                    <input class="hostel__input hostel__input3" type="text" name="name" placeholder="Ім’я" required>
+                    <input data-rule="phone" class="hostel__input hostel__input2" type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                    <input class="hostel__input1" type="text" name="lang" value="ua">
+                    <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                    <div class="hostel__set-book-date">
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата заселення:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                      </div>
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата виїзда:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                      </div>
+                    </div>
+                    <input class="hostel__button" type="button" id="btn7" value="Забронювати">
+                    <div id="result_form7"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!--<div class="slider-section__item-wrapp">
+            <div class="slider-section__item">
+              <ul class="slides3">
+                <input id="img-9" type="radio" name="radio-btn2" checked>
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er1.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-18">&lsaquo;</label>
+                    <label class="next" for="img-10">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-10" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er2.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-9">&lsaquo;</label>
+                    <label class="next" for="img-11">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-11" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er3.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-10">&lsaquo;</label>
+                    <label class="next" for="img-12">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-12" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er4.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-11">&lsaquo;</label>
+                    <label class="next" for="img-13">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-13" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er5.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-12">&lsaquo;</label>
+                    <label class="next" for="img-14">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-14" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er6.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-13">&lsaquo;</label>
+                    <label class="next" for="img-15">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-15" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er7.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-14">&lsaquo;</label>
+                    <label class="next" for="img-16">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-16" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er8.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-15">&lsaquo;</label>
+                    <label class="next" for="img-17">&rsaquo;</label>
+                  </div>
+                </li>
+                <input id="img-17" type="radio" name="radio-btn2">
+                <li class="slide-container">
+                  <div class="slide"><img src="images/er9.jpg"></div>
+                  <div class="nav">
+                    <label class="prev" for="img-16">&lsaquo;</label>
+                    <label class="next" for="img-9">&rsaquo;</label>
+                  </div>
+                </li>
+                <li class="nav-dots">
+                  <label class="nav-dot" id="img-dot-9" for="img-9"></label>
+                  <label class="nav-dot" id="img-dot-10" for="img-10"></label>
+                  <label class="nav-dot" id="img-dot-11" for="img-11"></label>
+                  <label class="nav-dot" id="img-dot-12" for="img-12"></label>
+                  <label class="nav-dot" id="img-dot-13" for="img-13"></label>
+                  <label class="nav-dot" id="img-dot-14" for="img-14"></label>
+                  <label class="nav-dot" id="img-dot-15" for="img-15"></label>
+                  <label class="nav-dot" id="img-dot-16" for="img-16"></label>
+                  <label class="nav-dot" id="img-dot-17" for="img-17"></label>
+                </li>
+              </ul>
+              <div class="slider-section__title"> 
+                <div class="slider-section__news">NEW</div>
+              </div>
+              <button class="accordion">Адреса</button>
+              <div class="panel">
+                <p> метро Вокзальна</p><br> вул. Ернста, 4        
+              </div>
+              <button class="accordion">Ціна</button>
+              <div class="panel">доба: <strong>200 грн</strong><br>тиждень: від <strong> 770 грн</strong><br>4 тиждня: від  <strong>2250 грн.</strong><br></div>
+              <button class="accordion">Опис</button>
+              <div class="panel">
+                <p>Всі плюси Турецького містечка для вас! Турецьке містечко - мікрорайон м.Києва, куди ми запрошуємо в хостел.Отлічная інфраструктура, парки, Совські озера в пішої доступності.Комнати хостела в відмінному оновленому стані. Ремонт відбувся навесні 2018 р. Зручні дерев'яні ліжка, ортопедичні матраци, індивідуальний простір - для комфортного відпочинку, продумана кухня і техніка - для зручності, персональні бокси під ключ - для безпеки.</p>
+              </div>
+              <button class="accordion">Що поруч?</button>
+              <div class="panel">
+                <ul>
+                  <li>cупермаркети АТБ, Фора, Еко-маркет, Novus, Фуршет</li>
+                  <li>нова пошта 174 відділення</li>
+                  <li>аптека</li>
+                  <li>ПриватБанк,Ощадбанк, ПУМБ та інші</li>
+                  <li>Совские озера</li>
+                  <li>Оптова продовольча база волинська</li>
+                  <li>Фітнес-клуб</li>
+                  <li>Нова пошта</li>
+                  <li>Автопарковка</li>
+                </ul>
+              </div>
+              <button class="accordion">Транспорт</button>
+              <div class="panel">
+                <p>Зручна транспортна розв'язка, з можливістю протягом 10 хв дістатися до аеропорту «Київ» (Жуляни), протягом 30 хв - Центру міста.Громадський транспорт курсує в усі райони Києва. Ви зможете вибрати найкраще відповідає вашим потребам, з урахуванням дорожньої ситуації. Найближчі станції метро - Вокзальна, Шулявская.Рядом (1,5 км) кільцева міська електричка.</p>
+              </div>
+            </div>
+            <div class="slider-section__contact"><a class="slider-section__link trigger_popup_fricc3">Показати на мапі</a>
+              <div class="hover_bkgr_fricc3"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton3">&times;</div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10169.854746105388!2d30.46722060059664!3d50.4138319042218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cecabb454ccd%3A0xe22b9f99547f9155!2z0LLRg9C70LjRhtGPINCk0LXQtNC-0YDQsCDQldGA0L3RgdGC0LAsIDQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1619180386649!5m2!1suk!2sua" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <button class="hostel__button slider-section__button trigger_popup_fricc4">Забронювати</button>
+              <div class="hover_bkgr_fricc4"><span class="helper"></span>
+                <div>
+                  <div class="popupCloseButton4">&times;</div>
+                  <h5>Забронювати хостел на Ернста</h5>
+                  <form class="hostel__form" id="ajax_form8" action="" method="POST">
+                    <input  class="hostel__input hostel__input3" type="text" name="name" placeholder="Ім’я" required>
+                    <input data-rule="phone" class="hostel__input hostel__input2" type="tel" name="phonenumber" placeholder="+38(0__)___-__-__" required>
+                    <input class="hostel__input1" type="text" name="lang" value="ua">
+                    <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+                    <div class="hostel__set-book-date">
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата заселення:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+                      </div>
+                      <div class="hostel__set-book-date-item">
+                        <p class="hostel__data">Дата виїзда:</p>
+                        <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+                      </div>
+                    </div>
+                  <input class="hostel__button" type="button" id="btn8" value="Забронювати">
+                  <div id="result_form8"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+      <div class="reviews">
+        <h4 class="reviews__title" id="reviews">Відгуки</h4>
+        <div class="reviews-items">
+          <div class="reviews-item"><img src="images/avatar1.png" alt="avata1">
+            <div class="reviews__header"> 
+              <p class="revies__name">Андрей</p>
+              <p class="revies__city">Житомир</p>
+            </div>
+            <div class="reviews__description">Часто буваю в Києві і живу як правило в хостелах. Що я вам скажу! Іноді потрапляв в “* опу” – пишуть одне, реальність інша. Але, народ, не цього разу. Фотки реальні, житло класне. Це не готель, якщо що, але дуже добротний, чистий і комфортний хостел дуже гідного рівня! Відчувається, що люди вкласти не пожлобілся. А ще місце шикарне, 5 хв і я біля метро + в будь-який час можу купити продукти.</div>
+          </div>
+          <div class="reviews-item"><img src="images/avatar2.png" alt="avata2">
+            <div class="reviews__header"> 
+              <p class="revies__name">Анна</p>
+              <p class="revies__city">Одеса</p>
+            </div>
+            <div class="reviews__description">Не люблю коли пропонують вибирати між людськими умовами і економією грошей. Будь-яка нормальна людина хоче заощадити і при цьому відчувати себе Людиною. Мегаполіс допоміг уникнути цього вибору і розчарування. Я за своє житло заплатила набагато менше, ніж за квартиру в Києві або готель. При цьому отримала зручне ліжко, чиста білизна (дуже важливо), прибране приміщення, чисту кухню і спокій!</div>
+          </div>
+          <div class="reviews-item"><img src="images/avatar3.jpg" alt="avata3">
+            <div class="reviews__header"> 
+              <p class="revies__name">Богдан</p>
+              <p class="revies__city">Ірпінь</p>
+            </div>
+            <div class="reviews__description">Я не знайшов Мінусів у хостелі і персоналі. Жив у багатьох хостелах України. Якість цього дуже дойстойное За європейськими стандартами) Всім рекомендую приїхати сюди і оцінити. На групи дають знижку, якщо домовитися</div>
+          </div>
+        </div>
+      </div>
+      <div class="hostel">
+        <div class="hostel-item">
+          <h4 class="hostel__header">Забронювати хостел</h4>
+          <div class="hostel__description">Приїжджаєте до Києва і шукаєте де зупинитися? Сумніваєтеся бронювати чи готель, знімати житло? Шукаєте хороший і недорогий варіант в Києві? Хочете подорожувати всій родині або з друзями, але продовжувати відчувати себе як вдома? Хостел Мегаполіс радий вітати Вас!</div>
+        </div>
+        <div class="hostel-item">
+          <form  class="hostel__form" id="ajax_form" action="" method="POST">
+            <input class="hostel__input hostel__input3" type="text" name="name" placeholder="Ім’я" >
+            <input class="hostel__input hostel__input2" type="tel"  data-rule="phone" placeholder="+38(0__)___-__-__" required>
+            <input class="hostel__input1" type="text" name="lang" value="ua">
+            <select class="hostel__select" name="hostel">
+              <option value="пр. Победи, 118">пр. Победи, 118</option>
+             <!-- <option value="пр. Победи, 118">вул. Ернста, 4</option>-->
+              <option value="пер. Ужгородський, 7">пер. Ужгородський, 7</option>
+              <option value="вул. Щербаківського, 52">вул. Щербаківського, 52</option>
+              <option value="вул. Челябінська, 5а">вул. Челябінська, 5а</option>
+            </select>
+            <textarea class="hostel__texterea" name="messages" placeholder="Повідомлення"></textarea>
+            <div class="hostel__set-book-date">
+              <div class="hostel__set-book-date-item">
+                <p class="hostel__data">Дата заселення:</p>
+                <input class="hostel__input hostel__input1" type="date" name="date1" placeholder="день місяць рік">
+              </div>
+              <div class="hostel__set-book-date-item">
+                <p class="hostel__data">Дата виїзда:</p>
+                <input class="hostel__input hostel__input1" type="date" name="date2" placeholder="день місяць рік">
+              </div>
+            </div>
+            <input class="hostel__button" type="button" id="btn" value="Забронювати">
+          </form>
+          <div id="result_form"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-footer">
+      <div class="header footer">
+        <div class="header-item2"><a class="header__link" href="#advance">Переваги</a><a class="header__link" href="#adress">Адреси хостелів</a><a class="header__link" href="#reviews">Відгуки</a>
+          <select name="forma" onchange="location = this.value;">
+            <option value="index.html">UA</option>
+            <option value="index-ru.html">RU</option>
+          </select>
+        </div>
+        <div class="header-item3">
+          <div class="header__icon"><img class="header__icon" src="images/1.svg">
+            <div class="header__phones"><a class="header__phone" href="tel:+38 (063) 890 30 30">+38 (063) 890 30 30</a><a class="header__phone" href="tel:+38 (096) 890 30 30">+38 (096) 890 30 30</a></div>
+          </div>
+          <div class="header__phones"><a class="header__phone" href="tel:+38 (066) 890 30 30">+38 (066) 890 30 30</a>
+            <button class="header__button trigger_popup_fricc9">Передзвонити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js" defer> </script>
+     <script type="text/javascript" src="js-form-validator.js" defer></script>
+    <script src="ajax.js" defer> </script>
+  </body>
+</html>
